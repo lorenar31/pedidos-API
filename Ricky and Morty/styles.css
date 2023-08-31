@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,300;0,400;0,500;0,700;1,300&family=Kumbh+Sans:wght@400;700;900&family=Poppins:wght@400;500;600;800&family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,300&family=Rubik+Dirt&display=swap');
+
+body {
+    /*font-family: 'Archivo', sans-serif;*/
+   /* font-family: 'Kumbh Sans', sans-serif;*/
+   /* font-family: 'Poppins', sans-serif;*/
+   /* font-family: 'Roboto', sans-serif;*/
+    font-family: 'Rubik Dirt', cursive;
+    background-image: url(https://www.cronista.com/files/image/470/470449/62da8a536c24b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(27, 25, 76) 0%, rgb(33, 34, 42) 100%);
+    font-size: 24px;
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+label {
+    margin: 10px;
+    font-size: 22px;
+}
+
+input[type="number"] {
+    width: 180px;
+    padding: 1px;
+    border-radius: 5px;
+}
+button {
+    width: 80px;
+    padding: 4px;
+    font-family: 'Rubik Dirt', cursive;
+    background-color: #05216d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 4px;
+}
+button:hover {
+    background-color:#1ba12b;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
