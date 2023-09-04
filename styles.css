@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.cronista.com/files/image/470/470449/62da8a536c24b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(27, 25, 76) 0%, rgb(33, 34, 42) 100%);
+    font-size: 24px;
+    color: white;
+    padding: 0.2rem;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #a2e5aa;
+    font-size: 40px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+label {
+    margin: 10px;
+    font-size: 22px;
+    color: #a2e5aa;
+}
+
+input[type="number"] {
+    width: 200px;
+    border-radius: 8px;
+}
+
+button {
+    display: flex;
+    text-align: center;
+    width: 90px;
+    padding: 5px;
+    font-size: 20px;
+    background-image: linear-gradient(150deg, #9500ff, #09f, #2cd4);
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 8px;
+    transition: .3s;
+}
+
+button:hover {
+    background-color: #1ba12b;
+}
+
+.card-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
